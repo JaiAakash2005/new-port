@@ -1,0 +1,27 @@
+.skill-section {
+  width: 100%;
+}
+.skill-me {
+  background-color: black;
+  height: 500px;
+  width: 400px;
+  padding: 25px;
+}
+.Digital-marketing {
+  height: 150px;
+  width: 150px;
+}
+.web-design {
+  height: 150px;
+  width: 150px;
+}
+.text {
+  color: #59b2f4;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .service {
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+}

@@ -1,0 +1,73 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust spacing between icons and button */
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden; /* Allow horizontal scrolling on small screens */
+}
+
+.icons a {
+  font-size: 24px;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #59b2f4;
+}
+.linked-in {
+  overflow: hidden;
+  margin-top: 5px;
+  height: 40px;
+}
+
+.icons a svg {
+  width: 24px;
+  height: 24px;
+}
+
+.icons a:hover svg {
+  fill: #59b2f4;
+}
+
+.gradient-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #59b2f4;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .icons {
+    flex-wrap: wrap; /* Allow icons to wrap to the next line on smaller screens */
+    justify-content: center; /* Align items to the center on smaller screens */
+    margin-left: 0;
+  }
+
+  .gradient-button {
+    margin-top: 20px;
+    color: black; /* Increase space between icons and button on smaller screens */
+  }
+  .insta,
+  .linked-in,
+  .github,
+  .twitter {
+    margin: 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icons {
+    justify-content: flex-start; /* Align items to the start on larger screens */
+  }
+
+  .icons a {
+    margin-right: 20px; /* Add space between icons */
+  }
+}

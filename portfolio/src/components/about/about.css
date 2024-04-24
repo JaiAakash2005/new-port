@@ -1,0 +1,18 @@
+.aboutme {
+  width: 100%;
+  margin-top: 50px !important;
+  padding: 25px;
+  overflow: hidden !important;
+  text-align: justify;
+  hyphens: auto;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+.section-about {
+  margin-top: 30px;
+}
+
+.mme {
+  color: #59b2f4 !important;
+}

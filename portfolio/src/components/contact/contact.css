@@ -1,0 +1,102 @@
+.inputs {
+  padding: 10px;
+  width: 45%;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea {
+  padding: 10px;
+  border-radius: 10px;
+  color: black !important; /* Add !important to ensure it takes precedence */
+}
+
+.gradient-button {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(27, 103, 192, 1) 100%
+  );
+
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gradient-button:hover {
+  /* background: linear-gradient(
+    0deg,
+    rgba(82, 185, 233, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); */
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 0.5) 0%,
+    rgba(27, 103, 192, 0.5) 100%
+  );
+  /* Optionally, you can add transitions for a smoother effect */
+  transition: background-color 0.3s ease;
+}
+.details {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: black;
+  height: 200px;
+  width: 100vw;
+}
+.list-contact {
+  display: inline-flex;
+  width: 100%;
+}
+.details.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details .col-md-6,
+.details .col-12 {
+  flex: 1 1 50%;
+}
+
+.list-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.list-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-contact ul li {
+  margin-right: 20px;
+}
+textarea {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .inputs {
+    padding-right: 40px;
+    width: 90%;
+  }
+  .details {
+    height: 400px;
+  }
+}
+@media (min-width: 768px) {
+}

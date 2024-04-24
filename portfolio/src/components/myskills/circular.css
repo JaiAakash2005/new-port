@@ -1,0 +1,77 @@
+.progress-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 80px;
+  width: calc(100% - 160px);
+}
+
+.circle {
+  height: 130px;
+  width: 130px;
+  overflow-y: hidden;
+}
+
+.container-1 {
+  display: flex;
+}
+h6 {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .progress-circle {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .progress-circle {
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+  }
+
+  .circle-container {
+    display: block;
+    margin: 10px;
+  }
+
+  .container-1 {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .progress-circle {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+  }
+
+  .circle {
+    width: 125px;
+  }
+
+  .circle-container {
+    display: block;
+    margin: 10px;
+  }
+
+  .container-1 {
+    flex-direction: column;
+  }
+
+  .circle-container:first-child {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .container-1 {
+    flex-direction: row;
+  }
+}
